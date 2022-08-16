@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.MenuStyle {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(126, 179, 28);
+    color: white;
+}
+
+.MenuStyle ul {
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    list-style: none;
+    text-transform: capitalize;
+}
